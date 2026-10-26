@@ -4975,6 +4975,7 @@ rpm(
     sha256 = "52cd1b3c1dded02463b36431332ff3a40fc68c6def78045e454f9c1c13d4ace3",
     urls = [
         "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/kernel-headers-6.12.0-257.el10.x86_64.rpm",
+        "https://storage.googleapis.com/builddeps/52cd1b3c1dded02463b36431332ff3a40fc68c6def78045e454f9c1c13d4ace3",
     ],
 )
 
@@ -15800,26 +15801,26 @@ rpm(
 )
 
 rpm(
-    name = "gtk-update-icon-cache-0__3.24.31-5.el9.x86_64",
-    sha256 = "91ac46ed1e4bac38f5e0457635873916fee31adeef9fdfdec63ad7d9c34f4a15",
+    name = "gtk-update-icon-cache-0__3.24.31-12.el9.x86_64",
+    sha256 = "2181ae8edf8522db9a4359ebae9909a14edbd298c3e0783bc4bde69e9afedcd4",
     urls = [
-        "http://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/gtk-update-icon-cache-3.24.31-5.el9.x86_64.rpm",
+        "http://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/gtk-update-icon-cache-3.24.31-12.el9.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "gtk3-0__3.24.31-5.el9.x86_64",
-    sha256 = "37886175fbb321f4bb4102556d5163d87e0adfd07fcc7ec43f0b2452c4a2c547",
+    name = "gtk3-0__3.24.31-12.el9.x86_64",
+    sha256 = "39b4d015943b3282d80d912e35521dd3e2e413dd45d0e4fdde08cb6f8fb68e1e",
     urls = [
-        "http://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/gtk3-3.24.31-5.el9.x86_64.rpm",
+        "http://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/gtk3-3.24.31-12.el9.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "gtk3-devel-0__3.24.31-5.el9.x86_64",
-    sha256 = "bb3a014b6a7da8a5662d56a7e516cd18108fe75981adcdfa536ecd79a99b4ddd",
+    name = "gtk3-devel-0__3.24.31-12.el9.x86_64",
+    sha256 = "47c5f7c5bd7e218e3b1e218d749ab19e9ffe3acdda93d6415e6ea77f1a3e9f21",
     urls = [
-        "http://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/gtk3-devel-3.24.31-5.el9.x86_64.rpm",
+        "http://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/gtk3-devel-3.24.31-12.el9.x86_64.rpm",
     ],
 )
 
@@ -16128,10 +16129,10 @@ rpm(
 )
 
 rpm(
-    name = "libatomic-0__11.5.0-7.el9.x86_64",
-    sha256 = "42d59da75f7e0ba9cf1ab079463b4efc5e131c4754ee9f6c40a9b2d09c233ecd",
+    name = "libatomic-0__11.5.0-16.el9.x86_64",
+    sha256 = "a06c4f959dea395ed0c07b51f8caaa5f1a67e6ebd3641ebef4e95169f1e58865",
     urls = [
-        "http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/Packages/libatomic-11.5.0-7.el9.x86_64.rpm",
+        "http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/Packages/libatomic-11.5.0-16.el9.x86_64.rpm",
     ],
 )
 
@@ -17065,26 +17066,26 @@ rpm(
 )
 
 rpm(
-    name = "avahi-glib-0__0.8-29.el10.x86_64",
-    sha256 = "8e9e0f8d59701e84fa7527dae43f4e0e6cc48886b9e316f6f5b213c74201a5d4",
+    name = "avahi-glib-0__0.9~rc2-7.el10.x86_64",
+    sha256 = "abb9467fa8d57552b6021443b9ed75ef0c2f0fa2652aed7475f6caaae63c4620",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/avahi-glib-0.8-29.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/avahi-glib-0.9~rc2-7.el10.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "avahi-libs-0__0.8-29.el10.x86_64",
-    sha256 = "cf30c5ad675882a0c321c1a27ada70ac856d37220d4f87c253be4b2850ec2387",
+    name = "avahi-libs-0__0.9~rc2-7.el10.x86_64",
+    sha256 = "b5c096da359c2e6c1bd29b30e6ca2ffbaab76c7981a7f01ce9c3923947285e5f",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/avahi-libs-0.8-29.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/avahi-libs-0.9~rc2-7.el10.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "bluez-libs-0__5.85-1.el10.x86_64",
-    sha256 = "aa15bd0a95186ad55f5ee47afe244813a325e62d30536392ea902dbd3caa6a2a",
+    name = "bluez-libs-0__5.86-2.el10.x86_64",
+    sha256 = "c5065597951b0bffc98665fea163c48453d7c5f055a76a65bb0982711657ea1e",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/bluez-libs-5.85-1.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/bluez-libs-5.86-2.el10.x86_64.rpm",
     ],
 )
 
@@ -17345,26 +17346,26 @@ rpm(
 )
 
 rpm(
-    name = "gtk3-0__3.24.42-2.el10.x86_64",
-    sha256 = "d04a348c361ba4d370cd7932518e510a8dbecf7596bf9ec10bc89ab4ca175ceb",
+    name = "gtk3-0__3.24.52-1.el10.x86_64",
+    sha256 = "00fcdd68860bfb2ec22e5af213ba56c4d04f766ee855f2b23b9972799d41d482",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/gtk3-3.24.42-2.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/gtk3-3.24.52-1.el10.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "gtk3-devel-0__3.24.42-2.el10.x86_64",
-    sha256 = "19b70a885a3276d341e9d23d46880943c79cbd9591ba33d6cec90e9189ccedb6",
+    name = "gtk3-devel-0__3.24.52-1.el10.x86_64",
+    sha256 = "6ae5c5ee718ffdbced052d2db46b647ba2bf0e7ede4fea1b2ae3d690cad2af64",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/gtk3-devel-3.24.42-2.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/gtk3-devel-3.24.52-1.el10.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "gtk-update-icon-cache-0__3.24.42-2.el10.x86_64",
-    sha256 = "9e4b9ed7b98571c5aff4e8616833eba4c6dd6f5123d482957c7b26b95fcf1ebd",
+    name = "gtk-update-icon-cache-0__3.24.52-1.el10.x86_64",
+    sha256 = "17ee62cfe0f86e8a09e7968d2b901fb3cbbde7a23ddd807491e07d2200b12081",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/gtk-update-icon-cache-3.24.42-2.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/gtk-update-icon-cache-3.24.52-1.el10.x86_64.rpm",
     ],
 )
 
@@ -17449,10 +17450,10 @@ rpm(
 )
 
 rpm(
-    name = "libblkid-devel-0__2.40.2-13.el10.x86_64",
-    sha256 = "2930aefc79760eea78808cf73df752d64e7d8910ba2b6811f0b676dcfd0b8ad5",
+    name = "libblkid-devel-0__2.40.2-23.el10.x86_64",
+    sha256 = "25c556300cc87144bc1f03830c2d402582578f0735887f8cf33f5d5763b847c5",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libblkid-devel-2.40.2-13.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libblkid-devel-2.40.2-23.el10.x86_64.rpm",
     ],
 )
 
@@ -17633,10 +17634,10 @@ rpm(
 )
 
 rpm(
-    name = "libmount-devel-0__2.40.2-13.el10.x86_64",
-    sha256 = "dd2dc6f0526859e16a754aabce5240e3f8fe663dbc05424f81f1e85897825074",
+    name = "libmount-devel-0__2.40.2-23.el10.x86_64",
+    sha256 = "cc6801d12e8a0245a04d286cb1dcaa60632c2f5fa40c5815ac66ad8685666675",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libmount-devel-2.40.2-13.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libmount-devel-2.40.2-23.el10.x86_64.rpm",
     ],
 )
 
@@ -18265,50 +18266,50 @@ rpm(
 )
 
 rpm(
-    name = "pipewire-0__1.2.6-3.el10.x86_64",
-    sha256 = "8dc3de70e7f0cfdd5f6d01005371d91a5094a53895b20660a9da4771c6e86838",
+    name = "pipewire-0__1.6.9-1.el10.x86_64",
+    sha256 = "9900e7bf9ee96f44ea348e32bab47885459a51528fa7de1d44995350b6c587c7",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-1.2.6-3.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-1.6.9-1.el10.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "pipewire-alsa-0__1.2.6-3.el10.x86_64",
-    sha256 = "3df43b2045097f485c5ae2d2302c88b9b11d4ad32ad368b997035d0f02854f30",
+    name = "pipewire-alsa-0__1.6.9-1.el10.x86_64",
+    sha256 = "b972e948ff8f77dd810f71d23d35fa387f689460a6f3c5da1e99586e31522279",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-alsa-1.2.6-3.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-alsa-1.6.9-1.el10.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "pipewire-jack-audio-connection-kit-0__1.2.6-3.el10.x86_64",
-    sha256 = "c024b28d66363753762188feb77b6b77a5f5b87e5f2b0915ea8cae8193643be5",
+    name = "pipewire-jack-audio-connection-kit-0__1.6.9-1.el10.x86_64",
+    sha256 = "4bc96b931f2c648817c24a4d56bc5c4da510d9696be8330249e88fcd63df4690",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-jack-audio-connection-kit-1.2.6-3.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-jack-audio-connection-kit-1.6.9-1.el10.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "pipewire-jack-audio-connection-kit-libs-0__1.2.6-3.el10.x86_64",
-    sha256 = "71ea6b756239d0541cb20172121bfa73947f1e3b021949e9b6e04b15d1e13214",
+    name = "pipewire-jack-audio-connection-kit-libs-0__1.6.9-1.el10.x86_64",
+    sha256 = "573215c2cc5ceb4122f963173dffe68e464a0d5eb7720709fd2998e596750dc4",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-jack-audio-connection-kit-libs-1.2.6-3.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-jack-audio-connection-kit-libs-1.6.9-1.el10.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "pipewire-libs-0__1.2.6-3.el10.x86_64",
-    sha256 = "e9359ad01630332838fa38848d0a6f7f482b0b172ff4500df1f5c5cb558e9a34",
+    name = "pipewire-libs-0__1.6.9-1.el10.x86_64",
+    sha256 = "d4fc02f186d7a58f9ceb319b0829687b562862efe6404a40e0934dbc346d1430",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-libs-1.2.6-3.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-libs-1.6.9-1.el10.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "pipewire-pulseaudio-0__1.2.6-3.el10.x86_64",
-    sha256 = "077c7135b335a3470835a27f7b2a3947e152c552d1979ad572ab6ec4f0d79161",
+    name = "pipewire-pulseaudio-0__1.6.9-1.el10.x86_64",
+    sha256 = "b30e0cc41ac61b57e729a01cd11f0d90671fbc503b184012404402bf9d692297",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-pulseaudio-1.2.6-3.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/pipewire-pulseaudio-1.6.9-1.el10.x86_64.rpm",
     ],
 )
 
@@ -18393,18 +18394,18 @@ rpm(
 )
 
 rpm(
-    name = "vte291-0__0.76.3-2.el10.x86_64",
-    sha256 = "1ef46ee93ba156d8486607e6d1e78c1b3b685de5c3003dac67fe6e9f7c35809f",
+    name = "vte291-0__0.78.7-2.el10.x86_64",
+    sha256 = "af24b7ce6674fed45007847c1a5cac64af5bde6d31d29d2385a2d702acc7ce5d",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/vte291-0.76.3-2.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/vte291-0.78.7-2.el10.x86_64.rpm",
     ],
 )
 
 rpm(
-    name = "vte-profile-0__0.76.3-2.el10.x86_64",
-    sha256 = "900e5a67f367cddd99d303d12814bd0544f0f596d878b97b801571cb32920574",
+    name = "vte-profile-0__0.78.7-2.el10.x86_64",
+    sha256 = "49d581c8f926a66fff24889bb1768d5c64c79e499dda3a68eee24fe4bc0c9381",
     urls = [
-        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/vte-profile-0.76.3-2.el10.x86_64.rpm",
+        "http://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/vte-profile-0.78.7-2.el10.x86_64.rpm",
     ],
 )
 
